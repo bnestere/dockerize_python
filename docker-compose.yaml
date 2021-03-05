@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  app:
+    build: .
+    restart: always
+    volumes:
+      - ./project:/workspace/python/project
